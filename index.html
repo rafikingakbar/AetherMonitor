@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IoT Monitoring Dashboard</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+  <!-- CSS Utama -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 🔝 Navigasi -->
+  <nav>
+    <div class="logo">IoT Dash</div>
+    <ul>
+      <li><a href="#home">Beranda</a></li>
+      <li><a href="#dashboard">Dashboard</a></li>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- ✨ Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-left">
+      <h1><span class="line1">Realtime IoT</span><br><span class="line2">Monitoring Dashboard</span></h1>
+      <p class="desc">
+        Proyek ini mencatat suhu dan kelembapan secara real-time menggunakan ESP32 dan sensor DHT, lalu dikirim ke server dan ditampilkan dalam dashboard web interaktif. Semua data dapat dianalisis secara statistik.
+      </p>
+      <a href="#dashboard" class="btn-start">Jelajahi Sekarang</a>
+    </div>
+    <div class="hero-right">
+      <div class="laptop-container">
+        <img src="images/dashboard-laptop.png" alt="Dashboard IoT Laptop" class="hero-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- 💡 Section: Fitur Utama -->
+  <section class="features">
+    <h2>Fitur Utama</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <img src="images/Pemantauan Suhu.png" alt="Ikon Suhu">
+        <h3>Pemantauan Suhu</h3>
+        <p>Sensor DHT membaca suhu ruangan dan mengirimkannya ke server secara berkala.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/Humidity Sensor.png" alt="Ikon Kelembapan">
+        <h3>Pemantauan Kelembapan</h3>
+        <p>Kelembapan lingkungan juga dipantau dan ditampilkan secara real-time.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/ESP.png" alt="Ikon ESP32">
+        <h3>ESP32 + WiFi</h3>
+        <p>Menggunakan ESP32 untuk mengirim data langsung melalui jaringan Wi-Fi.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/Dashboard.png" alt="Ikon Dashboard">
+        <h3>Dashboard Interaktif</h3>
+        <p>Web dashboard menampilkan data, analisis, dan grafik secara dinamis.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
