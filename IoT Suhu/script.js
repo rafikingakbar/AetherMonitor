@@ -1,4 +1,4 @@
-// 🪄 Animasi Fade-In Saat Scroll
+// Animasi Fade-In Saat Scroll
 document.addEventListener("DOMContentLoaded", function () {
   const cards = document.querySelectorAll(".feature-card");
 
