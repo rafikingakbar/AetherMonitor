@@ -130,7 +130,7 @@ nav ul li a:hover {
   100% { transform: translateY(0); }
 }
 
-/* 📱 Responsive */
+/* Responsive */
 @media screen and (max-width: 768px) {
   .hero {
     flex-direction: column;
